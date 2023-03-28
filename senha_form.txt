@@ -1,0 +1,9 @@
+<h3> Senha</h3>
+    <form name="cadastro" action="" onsubmit="senhaOK();" method="POST" accept-charset="UTF-8">
+    <label>Digite uma senha: </label>
+    <input type="password" id="senha" required onchange="validarconfirmacao();">
+    <br><br>
+    <label>Confirme sua senha:</label> 
+    <input type="password" id="confirmacao_senha" required onchange="validarconfirmacao();">
+    <label for="envia"></label>
+    <input type="submit" id="envia" value="Enviar">
