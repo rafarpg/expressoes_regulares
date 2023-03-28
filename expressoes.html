@@ -20,7 +20,6 @@
 </style>
 <body>
     Digite um CPF: <input text="text" id="cpf" onkeyup="validar();">
-    
     <br><br>
     Digite um telefone: <input text="text" id="telefone">
     <button onclick="validartl();"> OK </button>
@@ -31,18 +30,7 @@
     Digite um email: <input text="text" id="email">
     <button onclick="validaremail();"> OK </button>
     <br><br>
-    <h3> Senha</h3>
-    <form name="cadastro" action="" onsubmit="senhaOK();" method="POST" accept-charset="UTF-8">
-    <label>Digite uma senha: </label>
-    <input type="password" id="senha" required onchange="validarconfirmacao();">
-    <br><br>
-    <label>Confirme sua senha:</label> 
-    <input type="password" id="confirmacao_senha" required onchange="validarconfirmacao();">
-    <label for="envia"></label>
-    <input type="submit" id="envia" value="Enviar">
-
 </body>
-<meta charset="utf-8">
 <script>
     function validar()
     {
@@ -102,21 +90,5 @@
             alert ("EMAIL CORRETO, BOA MEU GAROTO");
         }
     }
-    /*function validarconfirmacao()
-    {
-        const senha = document.querySelector('input[name=senha]');
-        const confirmacao_senha = document.querySelector('input[name=confirmacao_senha]');
-        if(confirmacao_senha.value===senha.value){
-            confirmacao_senha.setCustomValidity('');
-        } else {
-            confirmacao_senha.setCustomValidity('As senhas não conferem');
-        }
- 
-    }
-    function senhaOK()
-    {
-        alert("Senhas conferem!");
-    }
-    */
 </script>
 </html>
