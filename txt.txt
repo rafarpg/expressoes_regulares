@@ -1,0 +1,30 @@
+senha.addEventListener('input', function () {validate(senha)});
+confirmacao.addEventListener('input', function () {validate(confirmacao)});
+
+function validate(item){
+	item.setCustomValidity('');
+item.checkValidity();
+
+if (item == confirmacao){
+	if(item.value === senha.value) item.setCustomValidity('');
+	else item.CustomValidity('As senhas não são iguais');
+}
+}
+
+        function validarconfirmacao()
+        {
+            const senha = document.getElementById('senha');
+            const confirmacao = document.getElementById('confirmacao');
+            if(confirmacao.value === senha.value)
+            {
+                confirmacao.setCustomValidity('');
+            } else {
+                confirmacao.setCustomValidity('As senhas não conferem');
+            }
+        function senhaOK()
+        {
+            alert("Senhas conferem!")
+        }
+        }
+        senha.addEventListener('input', function () {validate(senha)});
+confirmacao.addEventListener('input', function () {validate(confirmacao)});
