@@ -1,0 +1,17 @@
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<nav class="dropdown_hover">
+        
+        <a href="#" class="primeiro_item"> Menu</a>
+        <ul>
+         
+          <li><a href="#" title="Formulários">Formulários</a></li>
+          <li><a href="#" title="Menus Html Prontos">Menus Html Prontos</a></li>
+          <li><a href="#" title="Sidebar">Sidebar</a></li>
+          <li><a href="#" title="Galeria de Fotos">Galeria de Fotos</a></li>
+          <li><a href="#" title="Função Pulsar Css">Função Pulsar Css</a></li>
+
+        </ul>
+      
+      </nav>
